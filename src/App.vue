@@ -1,18 +1,33 @@
 <template>
   <div id="app">
     <Header />
+    <TabChange />
+    <EpidemicMap/>
+    <RealTime />
+    <RumourReny />
+    <DiseaseKnowledge/>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Header from "./components/Header.vue";
+import RealTime from "./components/RealTime.vue";
+import DiseaseKnowledge from "./components/DiseaseKnowledge.vue";
+import TabChange from "./components/TabChange.vue";
+import EpidemicMap from './components/EpidemicMap.vue';
+import RumourReny from "./components/RumourReny.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Header
-  }
-}
+    Header,
+    TabChange,
+    EpidemicMap,
+    DiseaseKnowledge,
+    RumourReny,
+    RealTime
+  },
+};
 </script>
 
 <style>

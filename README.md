@@ -1,24 +1,23 @@
-# hello-vue
+# 抗疫情
 
-## Project setup
-```
-yarn install
-```
+## 项目结构
 
-### Compiles and hot-reloads for development
+```md
+├─.gitignore
+├─babel.config.js
+├─package-lock.json
+├─package.json
+├─README.md
+├─yarn.lock
+├─src
+|  ├─App.vue
+|  ├─main.js
+|  ├─components
+|  |     ├─Header.vue
+|  |     └TabChange.vue
+|  ├─assets
+|  |   └logo.png
+├─public
+|   ├─favicon.ico
+|   └index.html
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,17 +1,17 @@
 <template>
   <div class="tab-main">
-    切换栏目
+    辟谣防护
   </div>
 </template>
 
 <script>
 export default {
-  name: 'TabChange',
+  name: 'RenyRumour'
 }
 </script>
 
 <style scoped>
 .tab-main {
-  color: blueviolet;
+  color: red;
 }
 </style>

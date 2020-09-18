@@ -1,12 +1,15 @@
 <template>
   <div class="tab-main">
-    切换栏目
+    疾病知识
   </div>
 </template>
 
 <script>
 export default {
-  name: 'TabChange',
+  name: 'DiseaseKnowledge',
+  props: {
+    msg: String
+  }
 }
 </script>
 

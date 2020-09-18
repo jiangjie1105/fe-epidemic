@@ -1,12 +1,15 @@
 <template>
   <div class="tab-main">
-    切换栏目
+    实时播报
   </div>
 </template>
 
 <script>
 export default {
-  name: 'TabChange',
+  name: 'RealTime',
+  props: {
+    msg: String
+  }
 }
 </script>
 
