@@ -2,7 +2,7 @@
   <div>
     <div class="container clearfix">header</div>
     <div class="pv">
-      <i class="ll">xxx人已浏览</i>
+      <i class="ll">999999999人已浏览</i>
     </div>
   </div>
 </template>
@@ -23,7 +23,7 @@ export default {
   height: 0;
   padding-top: 33.5%;
   color: #fff;
-  font-size: 0.28rem;
+  font-size: .15rem;
   text-align: center;
   background: url(https://img1.dxycdn.com/2020/0314/863/3401956761707181858-2.png)
     no-repeat;
