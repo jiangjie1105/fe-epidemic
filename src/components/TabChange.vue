@@ -63,14 +63,22 @@ export default {
   justify-content: center;
   background-color: #fff;
   border-radius: 3px;
+  position: relative;
 }
 .tab-news .tab-news-container .left-text {
   color: #f74c31;
+  font-size: 14px;
+  position: absolute;
+  left: 35px;
 }
 .tab-news .tab-news-container .icon {
+  
   width: 14px;
   height: 14px;
-  right: 0;
+  line-height: 14px;
+  right: 30px;
+  position: absolute;
+  
 }
 .tab-news .tab-news-container .message {
   font-size: 14px;

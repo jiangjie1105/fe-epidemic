@@ -1,20 +1,20 @@
 <template>
-  <div class="tab-main">
-    疾病知识
-  </div>
+  <div class="tab-main">疾病知识</div>
 </template>
 
 <script>
 export default {
-  name: 'DiseaseKnowledge',
+  name: "DiseaseKnowledge",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <style scoped>
 .tab-main {
-  color: blueviolet;
+  background-color: rgb(46, 201, 92);
+  width: 100%;
+  height: 400px;
 }
 </style>

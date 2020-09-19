@@ -1,20 +1,20 @@
 <template>
-  <div class="tab-main">
-    疫情地图
-  </div>
+  <div class="tab-main">疫情地图</div>
 </template>
 
 <script>
 export default {
-  name: 'EpidemicMap',
+  name: "EpidemicMap",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <style scoped>
 .tab-main {
-  color: red;
+  background-color: rgb(45, 42, 167);
+  width: 100%;
+  height: 400px;
 }
 </style>

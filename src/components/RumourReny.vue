@@ -12,6 +12,8 @@ export default {
 
 <style scoped>
 .tab-main {
-  color: red;
+  background-color: rgb(138, 34, 34);
+  width: 100%;
+  height: 400px;
 }
 </style>
